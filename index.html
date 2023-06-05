@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Skins</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.cdnfonts.com/css/manhattan-brush" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jetbrains-mono-2" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">EBAC Skins</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <i class="bi bi-list"></i>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex space-around">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-site" class="nav-link">
+                            <i class="bi bi-house"></i>
+                            Sobre o site
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold me-2 ms-2">
+                        <a href="#loja" class="nav-link">
+                            <i class="bi bi-shop"></i>
+                            Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-card-list"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-site">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img class="w-100" src="./imagens/redskins/akred1.png">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img class="w-100" src="./imagens/redskins/terror1.png">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img class="w-100" src="./imagens/redskins/akredline1.png">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-sm-2 pb-md-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <img class="d-block w-100 rounded" src="./imagens/store/store2.jpg" alt="Coleção de skins">
+                        </div>
+                        <div class="col-md-6 col-lg-7 mt-3 mt-md-0">
+                            <h3 class="section-title">Sobre a <span class="text-color">loja</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis magnam, ex libero sint suscipit fuga magni dolorem maxime cumque iste qui quis voluptatum voluptas possimus soluta nihil inventore ullam! Sint.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem officia saepe molestias eveniet officiis neque nesciunt facilis. Dolor saepe minus repellat veritatis culpa dicta rem sunt exercitationem, rerum aliquam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-4 col-lg-4"></div>
+                <div class="col-sm-8 col-md-4 col-lg-4" id="line"></div>
+                <div class="col-sm-2 col-md-4 col-lg-4"></div>
+            </div>
+        </div>
+        <section id="loja" class="pt-3 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h3 class="text-center pe-5 mb-5">Loja</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-loja">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#skins-geral" class="fw-bold text-start text-color nav-link active">Skins</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#skins-facas" class="fw-bold text-start text-color nav-link">Facas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#skins-luvas" class="fw-bold text-start text-color nav-link">Luvas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#skins-ak" class="fw-bold text-start text-color nav-link">AK-47</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#skins-awp" class="fw-bold text-start text-color nav-link">AWP</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-1 border-left"></div>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="skins-geral">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/falchiondoppler.png" alt="Canivete Falchion Doppler">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5 class="fs-6">Canivete Falchion (★) | Doppler Gama (Phase 1) FN</h5>
+                                                <strong class="card-text">R$ 2.292,30</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/awp/awpprincipe.png" alt="AWP Principe">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AWP | O Principe FT</h5>
+                                                <strong class="card-text">R$ 29.220,75</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/karambitauto1.png" alt="Karambit Auto">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Karambit (★) | Autotronic FT</h5>
+                                                <strong class="card-text">R$ 7.998,70</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/luvas/arid.png" alt="Luvas Aridas">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Sport Gloves | Arid MW</h5>
+                                                <strong class="card-text">R$ 15.499,35</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/ak47/ak47asiimov.png" alt="Ak 47 Asiimov">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AK-47 (StatTrak™) | Asiimov FN</h5>
+                                                <strong class="card-text">R$ 2.794,37</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/ak47/fireserpent.png" alt="Ak 47 Fire Serpent">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AK-47 (StatTrak™) | Fire Serpent FN</h5>
+                                                <strong class="card-text">R$ 37.165,50</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/awp/dragonlore.png" alt="AWP Dragon Lore">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AWP | Dragon Lore MW</h5>
+                                                <strong class="card-text">R$ 76.869,00</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/luvas/crimkimono.png" alt="Gloves Crimson Kimono">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Specialist Gloves | Crimson Kimono FN</h5>
+                                                <strong class="card-text">R$ 75.587,82</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/butterflydopple.png" alt="Butterfly Doppler">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Canivete Borboleta (★) | Doppler Gama (Emerald) FN</h5>
+                                                <strong class="card-text">R$ 143.370,00</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="skins-facas">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/falchiondoppler.png" alt="Canivete Falchion Doppler">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5 class="fs-6">Canivete Falchion (★) | Doppler Gama (Phase 1) FN</h5>
+                                                <strong class="card-text">R$ 2.292,30</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/karambitauto1.png" alt="Karambit Auto">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Karambit (★) | Autotronic FT</h5>
+                                                <strong class="card-text">R$ 7.998,70</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/facas/butterflydopple.png" alt="Butterfly Doppler">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Canivete Borboleta (★) | Doppler Gama (Emerald) FN</h5>
+                                                <strong class="card-text">R$ 143.370,00</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="skins-luvas">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/luvas/crimkimono.png" alt="Gloves Crimson Kimono">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Specialist Gloves | Crimson Kimono FN</h5>
+                                                <strong class="card-text">R$ 75.587,82</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/luvas/arid.png" alt="Luvas Aridas">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>Sport Gloves | Arid MW</h5>
+                                                <strong class="card-text">R$ 15.499,35</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="skins-ak">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/ak47/fireserpent.png" alt="Ak 47 Fire Serpent">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AK-47 (StatTrak™) | Fire Serpent FN</h5>
+                                                <strong class="card-text">R$ 37.165,50</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/ak47/ak47asiimov.png" alt="Ak 47 Asiimov">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AK-47 (StatTrak™) | Asiimov FN</h5>
+                                                <strong class="card-text">R$ 2.794,37</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="skins-awp">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/awp/dragonlore.png" alt="AWP Dragon Lore">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AWP | Dragon Lore MW</h5>
+                                                <strong class="card-text">R$ 76.869,00</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <div class="card text-bg-dark text-center">
+                                            <header class="card-header">
+                                                <img class="w-100" src="./imagens/loja/awp/awpprincipe.png" alt="AWP Principe">
+                                            </header>
+                                            <div class="card-body">
+                                                <h5>AWP | O Principe FT</h5>
+                                                <strong class="card-text">R$ 29.220,75</strong>
+                                            </div>
+                                            <footer class="card-footer">
+                                                <button type="button" class="btn btn-outline-success">
+                                                    Tenho interesse
+                                                    <i class="bi bi-person-heart"></i>
+                                                </button>
+                                            </footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-4 col-lg-4"></div>
+                <div class="col-sm-8 col-md-4 col-lg-4" id="line"></div>
+                <div class="col-sm-2 col-md-4 col-lg-4"></div>
+            </div>
+        </div>
+        <section id="contato" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <h3 class="text-center pe-5 mb-5">Entre em <span class="text-color">contato</span></h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between" id="sectabout">
+                    <div class="col-lg-4 col-md-12">
+                        <h4>Envie sua <span class="text-color">mensagem</span></h4>
+                        <form class="mt-3">
+                            <label class="form-label" for="nome">Seu <span class="text-color underline">nome</span>:</label>
+                            <input class="form-control" type="text" id="nome" required>
+                            <label for="email" class="form-label">Seu <span class="text-color underline">e-mail</span>:</label>
+                            <input type="email" class="form-control" id="email" required>
+                            <label for="telefone" class="form-label">Seu <span class="text-color underline">telefone</span>:</label>
+                            <input type="tel" class="form-control" id="telefone" required>
+                            <label for="mensagem" class="form-label">Sua <span class="text-color underline">mensagem</span>:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="mx-auto p-2">
+                                <button class="btn btn-outline-success">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mt-sm-2">
+                        <h4>Nossas <span class="text-color">redes</span></h4>
+                        <div>
+                            <ul class="social-links d-flex justify-content-between">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-twitter text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-steam text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</html>

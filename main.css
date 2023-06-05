@@ -1,0 +1,100 @@
+.navbar-brand {
+    font-family: 'Manhattan Brush', sans-serif;
+    font-size: 50px;
+}
+
+.section-title {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+body {
+    background-color: #444444;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #EDEDED;
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-loja .nav-link.active:hover,
+.navbar-toggler {
+    color: #EDEDED;
+}
+
+#cabecalho .nav .nav-link.active,
+.navbar-toggler,
+.nav-loja .nav-link.active {
+    background-color: #DA0037;
+}
+
+.nav-loja .nav-link:hover {
+    color: #DA0037;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.navbar,
+.carousel.slide,
+#line,
+h4,
+.underline {
+    border-bottom: 1px solid #DA0037;
+}
+
+h3 {
+    border-bottom: 1px solid #DA0037;
+    border-left: 1px solid #da0037;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.text-color {
+    color: #DA0037;
+}
+
+.border-left {
+    border-left: 1px solid #DA0037;
+}
+
+.card,
+aside {
+    margin-bottom: 16px;
+}
+
+.nav-loja .nav-link {
+    margin-bottom: 5px;
+}
+
+.card-header,
+.card-body {
+    border-bottom: 1px solid rgba( 218, 0, 55, 0.5);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    font-size: 45px;
+}
+
+label {
+    margin-top: 16px;
+}
+
+input,
+textarea {
+    background-color: #EDEDED;
+}
